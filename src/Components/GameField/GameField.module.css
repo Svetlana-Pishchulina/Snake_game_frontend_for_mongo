@@ -1,0 +1,25 @@
+.gameArea {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #000;
+  background-color: rgba(22, 126, 4, 0.2);
+  background: linear-gradient(#000, transparent 1px),
+    linear-gradient(90deg, #000, transparent 1px);
+  background-size: 4% 4%;
+  background-position: top left;
+}
+
+@media screen and (min-width: 768px) {
+  .gameArea {
+    width: 420px;
+    height: 420px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gameArea {
+    width: 600px;
+    height: 600px;
+  }
+}

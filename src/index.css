@@ -1,0 +1,35 @@
+body {
+  background-image: url(./Pictures/1616578436_37-p-svetlii-fon-dlya-saita-40.jpg);
+}
+
+ul,
+li {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
