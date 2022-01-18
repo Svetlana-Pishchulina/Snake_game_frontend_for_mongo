@@ -1,5 +1,5 @@
 function addScore(score) {
-  return fetch(`https://testtesttest-psl.herokuapp.com/score`, {
+  return fetch(`https://snake-game-mongo-psl.herokuapp.com/score`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json;charset=utf-8',
@@ -9,7 +9,7 @@ function addScore(score) {
 }
 
 function fetchLeaders() {
-  return fetch('https://testtesttest-psl.herokuapp.com/score/leaderboard')
+  return fetch('https://snake-game-mongo-psl.herokuapp.com/score/leaderboard')
     .then((res) => res.json())
     .then((res) => res.data.result)
 }
